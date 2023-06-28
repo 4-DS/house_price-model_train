@@ -1,0 +1,8 @@
+{
+    "pipeline_params":
+    {
+        "env_name":"prod",
+        "pipeline_name":"boston_pipeline",
+        "zone_name":"test"
+    }
+}

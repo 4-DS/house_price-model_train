@@ -1,0 +1,19 @@
+{
+    "pipeline_params":
+    {
+        "env_name":"user",
+        "pipeline_name":"boston_pipeline",
+        "zone_name":"test"
+    },
+    "step_params":
+    {
+        "step_name": "model_train"
+    },
+    "substeps_params":
+    [
+        {
+            "substep_name":"model_train.ipynb",
+            "params": {}
+        }
+    ]
+}
