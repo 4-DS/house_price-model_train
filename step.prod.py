@@ -6,7 +6,7 @@ sg.git_reset()
 
 try:
     step = Step(step_params_file_globs="params/step_params.json",
-           env_name="user")
+           env_name="prod")
     for notebook in step.notebooks:
         notebook.run()
 except Exception as e:
