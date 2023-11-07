@@ -13,7 +13,7 @@
     [
         {
             "substep_name":"model_train.ipynb",
-            "params": {}
+            "substep_params": {}
         }
     ]
 }
