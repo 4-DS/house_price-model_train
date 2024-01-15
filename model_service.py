@@ -18,9 +18,4 @@ class ModelService(BentoService):
     def test_data(self, *args): 
         """ Return some test data for running a test """
         return self.artifacts.test_data
-
-    @api(input=JsonInput(), batch=False)
-    def service_version(self, *args): 
-        """ Return version of a running service """
-        return self.artifacts.service_version
     
