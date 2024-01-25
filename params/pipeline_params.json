@@ -1,8 +1,0 @@
-{
-    "pipeline_params":
-    {
-        "env_name":"prod",
-        "pipeline_name":"example_median_house_price",
-        "zone_name":"test"
-    }
-}
