@@ -1,0 +1,18 @@
+{
+    "pipeline_params":
+    {
+        "env_name":"user",
+        "pipeline_name":"example_median_house_price",
+        "zone_name":"test"
+    },
+    "step_params":
+    {
+    },
+    "substeps_params":
+    [
+        {
+            "substep_name":"model_train.ipynb",
+            "substep_params": {}
+        }
+    ]
+}
